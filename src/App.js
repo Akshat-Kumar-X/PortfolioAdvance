@@ -65,8 +65,11 @@ function App() {
                 />
               )}
             </div>
+
           </AnimatePresence>
+
         </Body>
+
       </BrowserRouter>
     </ThemeProvider>
   );

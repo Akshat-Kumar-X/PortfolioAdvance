@@ -12,12 +12,13 @@ import {
   headTextAnimation,
 } from "../../utils/motion";
 import StarCanvas from "../canvas/Stars";
+import Spline from '@splinetool/react-spline';
 
 const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 80px 30px;
+  padding: 0px 30px 50px;
   z-index: 1;
 
   @media (max-width: 960px) {
@@ -25,7 +26,7 @@ const HeroContainer = styled.div`
   }
 
   @media (max-width: 640px) {
-    padding: 32px 16px;
+    padding: 64px 16px;
   }
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
@@ -36,15 +37,17 @@ const HeroInnerContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1150px;
 
   @media (max-width: 960px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `;
+
 const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+  min-width:460px;
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -52,13 +55,16 @@ const HeroLeftContainer = styled.div`
     gap: 6px;
     flex-direction: column;
     align-items: center;
+    margin-right: 0;
   }
 `;
+
 const HeroRightContainer = styled.div`
   width: 100%;
-  order: 2;
+  order: 1;
   display: flex;
   justify-content: end;
+  position: relative;
   @media (max-width: 960px) {
     order: 1;
     display: flex;
@@ -70,6 +76,7 @@ const HeroRightContainer = styled.div`
 
   @media (max-width: 640px) {
     margin-bottom: 30px;
+    display:none
   }
 `;
 
@@ -157,8 +164,7 @@ const ResumeButton = styled.a`
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
   );
-  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
-  border-radius: 50px;
+  border-radius: 10px;
   font-weight: 600;
   font-size: 20px;
 
@@ -246,7 +252,7 @@ const Hero = () => {
               </motion.div>
 
               <motion.div {...headContentAnimation}>
-                <SubTitle>{Bio.description}</SubTitle>
+                <SubTitle>I develop web applications & <br/> Solutions for Real World Problems.</SubTitle>
               </motion.div>
 
               <ResumeButton href={Bio.resume} target="_blank">
@@ -255,9 +261,7 @@ const Hero = () => {
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
-                <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
-                </Tilt>
+                <Spline scene="https://prod.spline.design/BVZyuOcOPcnAPAP1/scene.splinecode"/>
               </motion.div>
             </HeroRightContainer>
           </HeroInnerContainer>
