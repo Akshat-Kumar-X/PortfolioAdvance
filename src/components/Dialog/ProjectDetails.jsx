@@ -18,21 +18,21 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  max-width: 800px;
+  max-width: 600px;
   width: 100%;
   border-radius: 16px;
-  margin: 50px 12px;
+  margin: 40px 12px;
   height: min-content;
   background-color: ${({ theme }) => theme.card};
   color: ${({ theme }) => theme.text_primary};
-  padding: 20px;
+  padding: 10px 30px ;
   display: flex;
   flex-direction: column;
   position: relative;
 `;
 
 const Title = styled.div`
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
   margin: 8px 6px 0px 6px;
@@ -43,7 +43,7 @@ const Title = styled.div`
 `;
 
 const Date = styled.div`
-  font-size: 16px;
+  font-size: 12px;
   margin: 2px 6px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_secondary};
@@ -53,10 +53,10 @@ const Date = styled.div`
 `;
 
 const Desc = styled.div`
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary};
-  margin: 8px 6px;
+  margin: 4px 6px;
   @media only screen and (max-width: 600px) {
     font-size: 14px;
     margin: 6px 6px;
@@ -92,10 +92,10 @@ const Tags = styled.div`
 `;
 
 const Tag = styled.div`
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 400;
   color: ${({ theme }) => theme.primary};
-  margin: 4px;
+  margin: 2px;
   padding: 4px 8px;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.primary + 20};
@@ -109,7 +109,7 @@ const Members = styled.div`
   flex-direction: column;
   gap: 6px;
   flex-wrap: wrap;
-  margin: 12px 6px;
+  margin: 10px 6px;
   @media only screen and (max-width: 600px) {
     margin: 4px 6px;
   }
@@ -154,10 +154,10 @@ const ButtonGroup = styled.div`
 const Button = styled.a`
   width: 100%;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
-  padding: 12px 16px;
+  padding: 8px 12px;
   border-radius: 8px;
   background-color: ${({ theme }) => theme.primary};
   ${({ dull, theme }) =>

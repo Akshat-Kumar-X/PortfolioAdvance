@@ -18,7 +18,7 @@ const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
   position: relative;
-  padding: 0px 30px 50px;
+  padding: 50px 30px 50px;
   z-index: 1;
 
   @media (max-width: 960px) {
@@ -34,10 +34,10 @@ const HeroContainer = styled.div`
 const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1150px;
+  max-width: 1100px;
 
   @media (max-width: 960px) {
     flex-direction: column-reverse;
@@ -64,7 +64,6 @@ const HeroRightContainer = styled.div`
   order: 1;
   display: flex;
   justify-content: end;
-  position: relative;
   @media (max-width: 960px) {
     order: 1;
     display: flex;
@@ -223,7 +222,7 @@ const HeroBg = styled.div`
 
 const Hero = () => {
   return (
-    <div id="About">
+    <div >
       <HeroContainer>
         <HeroBg>
           <HeroBgAnimation />
