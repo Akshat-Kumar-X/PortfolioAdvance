@@ -198,6 +198,24 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAiWQFdQJcY_VvYiPBuISydgF1awsHGUIvPpUgTfwKskmGHovid2tzkLsnjHESh67xttM&usqp=CAU",
+    role: "SWE Intern",
+    company: "Coforge",
+    date: "June 2024 - August 2024",
+    desc: "I collaborated with a team to develop a sophisticated Web Scraper and Crawler using the Spring Framework and Spring Boot. This project aimed to automate the extraction and processing of large volumes of web data efficiently.",
+    skills: [
+      "Spring",
+      "Spring Boot",
+      "Java",
+      "Hibernate",
+      "JDBC",
+      "MySQL",
+      "OOPs",
+    ],
+    doc: "https://drive.google.com/file/d/1TAAR5s_mcMhMXOxkmP2YD0lFJAjxTSMB/view?usp=sharing",
+  },
+  {
+    id: 1,
     img: "https://i.ibb.co/Y7n34K4/Unified-Mentor.png",
     role: "Full Stack Engineering Intern",
     company: "Unified Mentor",
@@ -215,7 +233,7 @@ export const experiences = [
     doc: "https://drive.google.com/file/d/1TAAR5s_mcMhMXOxkmP2YD0lFJAjxTSMB/view?usp=sharing",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://media.licdn.com/dms/image/D560BAQHbJ98jAoTBWw/company-logo_200_200/0/1705843409324/nexus_software_pvt_ltd_logo?e=1726099200&v=beta&t=7SeUDkpF06VeLEfB4FcV_vF-7C079i7CyiKrqQg6KnU",
     role: "Web Developer Intern",
     company: "Nexus Infotech",
