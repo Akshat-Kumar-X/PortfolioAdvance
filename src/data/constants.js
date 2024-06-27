@@ -10,7 +10,7 @@ export const Bio = {
     "I develop web applications & Solutions for Real World Problems.",
   github: "https://github.com/Akshat-Kumar-X",
   resume:
-    "https://drive.google.com/file/d/1sGF395gqu84pzCmMe9g69CHEeOO4hpHi/view",
+    "https://drive.google.com/file/d/1PbIHjCDdjv4goQsUT15JYQMnbvx9wUBa/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/akshat-kumar-86203224a/",
   twitter: "https://twitter.com",
   insta: "https://www.instagram.com/akshat_kumar_0/",
