@@ -81,7 +81,8 @@ export const skills = [
       },
       {
         name: "TypeScript",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/768px-Typescript_logo_2020.svg.png",
       },
       {
         name: "Python",
@@ -128,8 +129,7 @@ export const skills = [
       },
       {
         name: "Azure",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/azure-1.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/azure-1.svg",
       },
       {
         name: "Docker",
@@ -158,8 +158,7 @@ export const skills = [
     skills: [
       {
         name: "Version Control",
-        image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -188,8 +187,7 @@ export const skills = [
       },
       {
         name: "Vercel",
-        image:
-          "https://i.ibb.co/kHs9k13/vercel.png",
+        image: "https://i.ibb.co/kHs9k13/vercel.png",
       },
     ],
   },
@@ -300,12 +298,32 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Edumate",
+    date: "June 2024 - July 2024",
+    description:
+      "E-Commerce Price Tracking Full Stack application using Web Scrapping Technologies as well as Next.js and React.js. Developed a RESTful API to monitor real-time price changes.",
+    image: "https://i.ibb.co/4RHp55P/Screenshot-2024-07-21-091038.png",
+    tags: [
+      "React JS",
+      "Node Js",
+      "Express Js",
+      "Mongo DB",
+      "Rest API",
+      "CRUD",
+      "Redux",
+      "Tailwind",
+    ],
+    category: "Full Stack app",
+    github: "https://github.com/Akshat-Kumar-X/Edumate",
+    webapp: "https://edumate-tutor.vercel.app/",
+  },
+  {
+    id: 0,
     title: "PriceWise",
     date: "Dec 2023 - Jan 2024",
     description:
       "E-Commerce Price Tracking Full Stack application using Web Scrapping Technologies as well as Next.js and React.js. Developed a RESTful API to monitor real-time price changes.",
-    image:
-      "https://i.ibb.co/km3w6Zx/pricewise.png",
+    image: "https://i.ibb.co/cDH84C9/Screenshot-2024-07-21-092119.png",
     tags: [
       "Web Scraping",
       "Next Js",
@@ -314,7 +332,7 @@ export const projects = [
       "Express Js",
       "Redux",
       "Tailwind",
-      "Cron jobs"
+      "Cron jobs",
     ],
     category: "Full Stack app",
     github: "https://github.com/Akshat-Kumar-X/pricewise",
@@ -326,16 +344,8 @@ export const projects = [
     date: "Jan 2024 - Feb 2024",
     description:
       "Fully Functional Car Rental Portal using PHP, Bootstrap and MySQL also Created an Admin Panel Implementing CRUD operations to manage rent requests and update cars for rent.",
-    image:
-      "https://i.ibb.co/Q8M9gcB/rentaride.png",
-    tags: [
-      "PHP",
-      "MySQL",
-      "Bootstrap",
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
+    image: "https://i.ibb.co/Q8M9gcB/rentaride.png",
+    tags: ["PHP", "MySQL", "Bootstrap", "HTML", "CSS", "JavaScript"],
     category: "Full Stack app",
     github: "https://github.com/Akshat-Kumar-X/Rent-A-Car-Portal",
     webapp: "https://rent-a-carr.great-site.net/",
@@ -346,8 +356,7 @@ export const projects = [
     date: "Feb 2024 - Mar 2024",
     description:
       "Personalized AI Health Care platform for Patients and Doctors using Machine Learning for identifying Diseases and React.js, Executed CRUD operations for seamless Doctor Appointment Scheduling",
-    image:
-      "https://i.ibb.co/2KGZ7qZ/aimeds.png",
+    image: "https://i.ibb.co/2KGZ7qZ/aimeds.png",
     tags: [
       "React Js",
       "Machine Learning",
@@ -378,9 +387,16 @@ export const projects = [
     date: "Sept 2023 - Oct 2023",
     description:
       "Responsive Front End Web application using Framer Motion and React.js interactive Front-End experience using advanced Framer Motion animations, focusing on modern UI/UX principles",
-    image:
-      "https://i.ibb.co/xJDVjNY/metaverse.png",
-    tags: ["Next JS", "Framer Motion", "Tailwind", "Material UI", "UI/UX", "Responsive", "Figma"],
+    image: "https://i.ibb.co/xJDVjNY/metaverse.png",
+    tags: [
+      "Next JS",
+      "Framer Motion",
+      "Tailwind",
+      "Material UI",
+      "UI/UX",
+      "Responsive",
+      "Figma",
+    ],
     category: "Frontend app",
     github: "https://github.com/Akshat-Kumar-X/Metaverse",
     webapp: "https://metaverse-world-madness.vercel.app/",
@@ -391,9 +407,16 @@ export const projects = [
     date: "Oct 2023 - Nov 2023",
     description:
       "Implemented cutting-edge design techniques to deliver a seamless browsing experience with cross-browser compatibility. Engineered a visually stunning and responsive user interface.",
-    image:
-      "https://i.ibb.co/0mxRfGy/finance.png",
-    tags: ["Next JS", "Framer Motion", "Tailwind", "Material UI", "UI/UX", "Responsive", "Figma"],
+    image: "https://i.ibb.co/0mxRfGy/finance.png",
+    tags: [
+      "Next JS",
+      "Framer Motion",
+      "Tailwind",
+      "Material UI",
+      "UI/UX",
+      "Responsive",
+      "Figma",
+    ],
     category: "Frontend app",
     github: "https://github.com/Akshat-Kumar-X/Batch-System",
     webapp: "https://akshat-batch-systems.vercel.app/",
@@ -404,9 +427,15 @@ export const projects = [
     date: "Aug 2023 - Sept 2023",
     description:
       "Data Analytics Dashboard showcasing the power of data visualization. Built with React.js and Tailwind, this application helps users make informed decisions by providing clear and interactive data presentations.",
-    image:
-      "https://i.ibb.co/yVyH7rh/grow.png",
-    tags: ["React JS", "Tailwind", "Material UI", "UI/UX", "Responsive", "Figma"],
+    image: "https://i.ibb.co/yVyH7rh/grow.png",
+    tags: [
+      "React JS",
+      "Tailwind",
+      "Material UI",
+      "UI/UX",
+      "Responsive",
+      "Figma",
+    ],
     category: "Frontend app",
     github: "https://github.com/Akshat-Kumar-X/DataAnalytics",
     webapp: "https://grow-with-data.netlify.app/",
@@ -417,9 +446,15 @@ export const projects = [
     date: "Aug 2023 - Sept 2023",
     description:
       "Interactive PokeDex application allowing users to search and view details of various Pokemon. Built with React.js, Tailwind, and Material UI for a smooth and responsive user experience.",
-    image:
-      "https://i.ibb.co/3pF4DM3/PokeDex.png",
-    tags: ["React JS", "Tailwind", "Material UI", "UI/UX", "Responsive", "Figma"],
+    image: "https://i.ibb.co/3pF4DM3/PokeDex.png",
+    tags: [
+      "React JS",
+      "Tailwind",
+      "Material UI",
+      "UI/UX",
+      "Responsive",
+      "Figma",
+    ],
     category: "Web games",
     github: "https://github.com/Akshat-Kumar-X/PokeDex",
     webapp: "https://poke-dexx.vercel.app/",
@@ -430,8 +465,7 @@ export const projects = [
     date: "April 2023 - May 2023",
     description:
       "Classic Simon game recreated using React.js. Test your memory skills with this fun and interactive game, featuring smooth animations and responsive design.",
-    image:
-      "https://i.ibb.co/QFDCbs8/Screenshot-2024-06-10-155045.png",
+    image: "https://i.ibb.co/QFDCbs8/Screenshot-2024-06-10-155045.png",
     tags: ["JavaScript", "AJAX", "jQuery", "HTML5", "CSS3"],
     category: "Web games",
     github: "https://github.com/Akshat-Kumar-X/SimonGame",
@@ -443,13 +477,10 @@ export const projects = [
     date: "April 2023 - May 2023",
     description:
       "Simple Dice Game created with React.js. Roll the dice and try your luck in this easy-to-play game with a clean and responsive interface.",
-    image:
-      "https://i.ibb.co/WDBCBhJ/Screenshot-2024-06-10-201218.png",
+    image: "https://i.ibb.co/WDBCBhJ/Screenshot-2024-06-10-201218.png",
     tags: ["JavaScript", "AJAX", "jQuery", "HTML5", "CSS3"],
     category: "Web games",
     github: "https://github.com/Akshat-Kumar-X/Dice-Game",
     webapp: "https://akshat-kumar-x.github.io/Dice-Game/",
   },
 ];
-
-
