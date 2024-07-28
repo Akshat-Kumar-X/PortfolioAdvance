@@ -301,7 +301,7 @@ export const projects = [
     title: "Edumate",
     date: "June 2024 - July 2024",
     description:
-      "E-Commerce Price Tracking Full Stack application using Web Scrapping Technologies as well as Next.js and React.js. Developed a RESTful API to monitor real-time price changes.",
+      "Full Stack Scalable Platform that connects Students with nearby Teachers and tuition centres using React",
     image: "https://i.ibb.co/4RHp55P/Screenshot-2024-07-21-091038.png",
     tags: [
       "React JS",
