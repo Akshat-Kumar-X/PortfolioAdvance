@@ -195,12 +195,30 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
+    id: 1,
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQGAMic0n8G_5A/company-logo_200_200/company-logo_200_200/0/1631308673780?e=1735776000&v=beta&t=ogq9zmKhsPxTguw__xWmiyWPmbkpTDzhM9DWEl-z4OI",
+    role: "Research & Development Intern",
+    company: "Samsung - Bangalore",
+    date: "Sep 2024 - Present",
+    desc: "• Developing a Smart App to seamlessly integrate IoT devices, enabling efficient data transfer to backend.\n• Designing Node.js Backend and RESTful APIs to calculate AQI based on real-time data from sensors.",
+    skills: [
+      "Java",
+      "Node JS",
+      "Spring Boot",
+      "Application Development",
+      "JDBC",
+      "MySQL",
+      "OOPs",
+    ],
+    doc: "https://drive.google.com/file/d/1TAAR5s_mcMhMXOxkmP2YD0lFJAjxTSMB/view?usp=sharing",
+  },
+  {
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAiWQFdQJcY_VvYiPBuISydgF1awsHGUIvPpUgTfwKskmGHovid2tzkLsnjHESh67xttM&usqp=CAU",
     role: "SWE Intern",
     company: "Coforge",
     date: "June 2024 - August 2024",
-    desc: "I collaborated with a team to develop a sophisticated Web Scraper and Crawler using the Spring Framework and Spring Boot. This project aimed to automate the extraction and processing of large volumes of web data efficiently.",
+    desc: "• Developed a robust web scraper to automate data extraction from web sources using Spring Boot.\n• Designed modules to optimize web crawler, capable of crawling up to 3 levels.\n• Created RESTful APIs for seamless data exchange and implemented MySQL Database CRUD operations.",
     skills: [
       "Spring",
       "Spring Boot",
@@ -213,12 +231,12 @@ export const experiences = [
     doc: "https://drive.google.com/file/d/1TAAR5s_mcMhMXOxkmP2YD0lFJAjxTSMB/view?usp=sharing",
   },
   {
-    id: 1,
+    id: 3,
     img: "https://i.ibb.co/Y7n34K4/Unified-Mentor.png",
     role: "Full Stack Engineering Intern",
     company: "Unified Mentor",
     date: "June 2024 - July 2024",
-    desc: "Enhanced user experiences on Unified Mentor, Portals by resolving bugs & reduced load time by 40%. Built Unified Mentor portal using React Js with seamless interaction of REST APIs using AXIOS. Refactored previous code to TypeScript, updated with new dependency and integrated Vite",
+    desc: "• Developed a full stack scalable platform to connect users using MERN stack and Redux.\n• Optimized the platform's performance by 40%, reducing loading time and enhancing user experience.",
     skills: [
       "ReactJS",
       "Redux",
@@ -231,12 +249,12 @@ export const experiences = [
     doc: "https://drive.google.com/file/d/1TAAR5s_mcMhMXOxkmP2YD0lFJAjxTSMB/view?usp=sharing",
   },
   {
-    id: 2,
-    img: "https://media.licdn.com/dms/image/D560BAQHbJ98jAoTBWw/company-logo_200_200/0/1705843409324/nexus_software_pvt_ltd_logo?e=1726099200&v=beta&t=7SeUDkpF06VeLEfB4FcV_vF-7C079i7CyiKrqQg6KnU",
+    id: 4,
+    img: "https://media.licdn.com/dms/image/v2/D560BAQHbJ98jAoTBWw/company-logo_200_200/company-logo_200_200/0/1705843409324/nexus_software_pvt_ltd_logo?e=1735776000&v=beta&t=M9G2SBurWHjxpWV5WgTmeYb-oE6arJFSa6lmGXCxpKg",
     role: "Web Developer Intern",
     company: "Nexus Infotech",
     date: "Jan 2024 - March 2024",
-    desc: "Collaborated with a dynamic team to develop and optimize web applications. My role involved coding, debugging, and enhancing user interfaces, while also contributing to project planning and implementation. This experience honed my skills in front-end and back-end development, problem-solving, and teamwork.",
+    desc: "Collaborated with a dynamic team to develop and optimize web applications. My role involved coding, debugging, and enhancing user interfaces, while also contributing to project planning and implementation.",
     skills: [
       "ReactJS",
       "Redux",
@@ -249,7 +267,7 @@ export const experiences = [
     doc: "https://drive.google.com/file/d/1wb3WOT0dWL5OIZ53xEROxnFdj0xC8fxO/view?usp=sharing",
   },
   {
-    id: 3,
+    id: 5,
     img: "https://i.ibb.co/R4gdCch/iquest.png",
     role: "Technical Head",
     company: "Innovator's Quest",
