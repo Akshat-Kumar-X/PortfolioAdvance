@@ -214,7 +214,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F20336289-samsung-logo-vector-samsung-icon-free-vector&psig=AOvVaw2ZGbMtfprkAhLjspOK0zUm&ust=1751083719080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDOwKzdkI4DFQAAAAAdAAAAABAE",
+    img: "https://media.licdn.com/dms/image/v2/C560BAQFsvADfvcJi_A/company-logo_200_200/company-logo_200_200/0/1676336400451/samsung_electronics_logo?e=1756339200&v=beta&t=IFxpV4IOc-mIOlSO1LDZuZ6SxaAte3PjqrbOLh3eeLo",
     role: "Research & Development Intern",
     company: "Samsung - Bangalore",
     date: "Sep 2024 - May 2025",
