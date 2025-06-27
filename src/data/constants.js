@@ -194,12 +194,30 @@ export const skills = [
 ];
 
 export const experiences = [
+   {
+    id: 0,
+    img: "https://media.licdn.com/dms/image/v2/D560BAQFhe8nBzHDB5Q/company-logo_200_200/B56ZVE0JREGsAM-/0/1740616275287/western_digital_logo?e=1756339200&v=beta&t=K7I2_1lP-5OQ5E5hwd3DJgnYkXVX0SZl0meqGW8Dp80",
+    role: "Software Development Intern",
+    company: "Western Digital",
+    date: "May 2025 - Present",
+    desc: "• Containerized distributed microservices using Docker; automated deployments via CI/CD (Jenkins). • Integrated Grafana, Splunk and Prometheus for real-time data analysis and system monitoring. • Designed and deployed cloud-native workloads on AWS (EC2, S3, Lambda, RDS) reducing latency by 25 ms.",
+    skills: [
+      "Docker",
+      "Jenkins",
+      "Splunk",
+      "AWS",
+      "AI intigration",
+      "Data Analytics",
+      "Application Monitoring",
+    ],
+    doc: "https://drive.google.com/file/d/1TAAR5s_mcMhMXOxkmP2YD0lFJAjxTSMB/view?usp=sharing",
+  },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQGAMic0n8G_5A/company-logo_200_200/company-logo_200_200/0/1631308673780?e=1735776000&v=beta&t=ogq9zmKhsPxTguw__xWmiyWPmbkpTDzhM9DWEl-z4OI",
+    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F20336289-samsung-logo-vector-samsung-icon-free-vector&psig=AOvVaw2ZGbMtfprkAhLjspOK0zUm&ust=1751083719080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDOwKzdkI4DFQAAAAAdAAAAABAE",
     role: "Research & Development Intern",
     company: "Samsung - Bangalore",
-    date: "Sep 2024 - Present",
+    date: "Sep 2024 - May 2025",
     desc: "• Developing a Smart App to seamlessly integrate IoT devices, enabling efficient data transfer to backend.\n• Designing Node.js Backend and RESTful APIs to calculate AQI based on real-time data from sensors.",
     skills: [
       "Java",
@@ -247,24 +265,6 @@ export const experiences = [
       "JavaScript",
     ],
     doc: "https://drive.google.com/file/d/1TAAR5s_mcMhMXOxkmP2YD0lFJAjxTSMB/view?usp=sharing",
-  },
-  {
-    id: 4,
-    img: "https://media.licdn.com/dms/image/v2/D560BAQHbJ98jAoTBWw/company-logo_200_200/company-logo_200_200/0/1705843409324/nexus_software_pvt_ltd_logo?e=1735776000&v=beta&t=M9G2SBurWHjxpWV5WgTmeYb-oE6arJFSa6lmGXCxpKg",
-    role: "Web Developer Intern",
-    company: "Nexus Infotech",
-    date: "Jan 2024 - March 2024",
-    desc: "Collaborated with a dynamic team to develop and optimize web applications. My role involved coding, debugging, and enhancing user interfaces, while also contributing to project planning and implementation.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Tailwind",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "https://drive.google.com/file/d/1wb3WOT0dWL5OIZ53xEROxnFdj0xC8fxO/view?usp=sharing",
   },
   {
     id: 5,
